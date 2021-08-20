@@ -16,4 +16,4 @@ app.get('/', (req, res) => {
 
 const port = process.env.PORT || 4444;
 // I had app.listen(4444 first)
-app.listen(port, () => console.log('Right Money'))
+app.listen(port, () => console.log(`Right Money: ${port}`));
